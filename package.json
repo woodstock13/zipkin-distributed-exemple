@@ -1,0 +1,25 @@
+{
+  "name": "node_log_and_tracing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.3",
+    "fetch": "^1.1.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.6",
+    "winston": "2.3.1",
+    "zipkin": "^0.22.0",
+    "zipkin-context-cls": "^0.22.0",
+    "zipkin-instrumentation-express": "^0.22.0",
+    "zipkin-instrumentation-fetch": "^0.22.0",
+    "zipkin-transport-http": "^0.22.0"
+  }
+}
